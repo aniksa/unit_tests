@@ -11,7 +11,7 @@
     <script>
     test("prettydate basics", function() {
         var now = "2008/01/28 22:25:00";
-        equal(prettyDate(now, "2008/01/28 22:24:30"), "just now");
+        equal(prettyDate.format(now, "2008/01/28 22:24:30"), "just now");
     });
     </script>
 </head>
